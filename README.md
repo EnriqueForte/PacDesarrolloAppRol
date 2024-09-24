@@ -56,6 +56,7 @@ El proyecto debe estar ubicado dentro de un paquete llamado codigo para su corre
 2.5
 Se proporciona una clase Rol con el método main a ejecutar para que puedas probar tu proyecto. También tiene la implementación de otros métodos, como dado, pjAtaca y pnjAtaca que sería interesante que estudies y comprendas lo que hacen.
 Aunque se adjunta el fichero, también se va a pegar aquí el contenido de Rol.java:
+
 import java.util.Random;
 public class Rol {
 private static int dado(int d, int c) {
@@ -111,5 +112,3 @@ pnjAtaca(urukhai,gimli);
 pnjAtaca(orco,aragorn);
 }
 }
-A continuación verás un ejemplo de ejecución. Recuerda que cada vez que ejecutes el programa, el resultado será diferente al ser tiradas de dados aleatorias. Puede que todos
-los Personajes
