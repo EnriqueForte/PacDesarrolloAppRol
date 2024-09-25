@@ -1,5 +1,6 @@
 # PacDesarrolloAppRol
 Proyecto de un juego de Rol
+
 2.2 Descripción
 Consistirá en la programación de las siguientes clases e interfaces en Java:
 a.
@@ -46,10 +47,10 @@ atacar(Personaje): Envía un ataque a un Personaje equivalente a multiplicar el 
 defender(Personaje): Resta el daño de un ataque de un Personaje (que equivale a su nivel) menos el atributo defensa. Cuando un Personaje lance un ataque a un PJugador, lo hará con una cantidad de daño igual a su nivel. Esa cantidad se verá contrarrestada por el atributo de defensa del PJugador que se defiende del ataque. Si el daño no es superior a la defensa, el PJugador no recibirá daño. Si el daño es superior, recibirá un daño igual a la resta del parámetro enviado menos el atributo de defensa. Si el daño resultante es superior a la salud del PJugador, este muere.
 
 2.3 Tecnologías
-Solo se podrá utilizar Java para el desarrollo, sin ningún otro framework o plugin. Puedes elegir el IDE que mejor te parezca.
+Java para el desarrollo, sin ningún otro framework o plugin, elegir el IDE que mejor te parezca.
 
 2.4 Estructura de ficheros
-Para la realización de esta PAC se entrega la clase Rol.java, donde se incluye la función main. Solo hay que desarrollar, por tanto, la superclase Personaje, la interfaz Guerrero y la
+Para la realización se entrega la clase Rol.java, donde se incluye la función main. Solo hay que desarrollar, por tanto, la superclase Personaje, la interfaz Guerrero y la
 subclase PJugador, de forma que se obtenga el resultado esperado y descrito en puntos anteriores.
 El proyecto debe estar ubicado dentro de un paquete llamado codigo para su correcto funcionamiento.
 
